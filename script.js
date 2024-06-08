@@ -53,7 +53,7 @@ function getColorForText(blockId, index) {
         "block2": ["red", "blue", "green"],
         "block3": ["red", "blue", "green"],
         "block4": ["red", "blue", "green"],
-        "block5": ["#000000", "#333333", "#666666", "#999999", "#CCCCCC", "#DDDDDD", "#EEEEEE", "#FFFFFF"]
+        "block5": ["red", "blue", "green", "purple", "pink", "#333333", "#666666", "#999999", "#CCCCCC", "#DDDDDD", "#EEEEEE", "#FFFFFF"]
     };
     return colors[blockId][index] || "black";
 }
