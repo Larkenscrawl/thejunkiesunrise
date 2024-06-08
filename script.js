@@ -34,6 +34,11 @@ function toggleText(element) {
             "dying.",
             "dying.",
             "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
             "dying."
         ]
     };
@@ -55,7 +60,7 @@ function getColorForText(blockId, index) {
         "block4": ["red", "blue", "green"],
         "block5": [
             "red", "blue", "green", "purple", "pink", "magenta", "lightpink", 
-            "#000000", "#333333", "#666666", "#999999", "#CCCCCC", "#DDDDDD", "#EEEEEE", "#FFFFFF"
+            "#000000", "#333333", "#444444", "#555555", "#666666", "#777777", "#888888", "#999999", "#CCCCCC", "#DDDDDD", "#EEEEEE", "#FFFFFF"
         ]
     };
     return colors[blockId][index] || "black";
