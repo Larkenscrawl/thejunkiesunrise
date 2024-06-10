@@ -31,7 +31,15 @@ document.addEventListener("DOMContentLoaded", function() {
             "dying facing in.",
             "dying facing up.",
             "dying facing down.",
-            "dying."
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
+            "dying.",
         ]
     };
 
@@ -40,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
         block2: ["red", "blue", "green"],
         block3: ["red", "blue", "green"],
         block4: ["red", "blue", "green"],
-        block5: ["red", "blue", "green", "purple", "pink", "magenta", "lightpink", "grey", "lightgrey", "white"]
+        block5: ["red", "blue", "green", "purple", "pink", "magenta", "lightpink", "orange", "yellow", "black", "#999999", "#888888", "#777777", "#666666", "#555555", "#444444", "#333333", "#222222", "#111111". "#000000"]
     };
 
     document.querySelectorAll('.colored-text').forEach(el => {
