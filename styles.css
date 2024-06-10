@@ -55,7 +55,7 @@ body {
         color: #ff0000;
         text-shadow: 1px 0px 2px #00ff00, -1px 0px 2px #0000ff;
     }
-    .indent {
+.indent {
     text-indent: 2em;
 }
 }
