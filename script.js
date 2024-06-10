@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
         block2: ["red", "blue", "green"],
         block3: ["red", "blue", "green"],
         block4: ["red", "blue", "green"],
-        block5: ["red", "blue", "green", "purple", "pink", "magenta", "lightpink", "grey", "#999999", "#888888", "#777777", "#666666", "#555555", "#444444", "#333333", "#222222", "#111111"]
+        block5: ["red", "blue", "green", "purple", "pink", "magenta", "lightpink", "grey", "#111111", "#222222", "#333333", "#444444", "#555555", "#666666", "#777777", "#888888", "#999999"]
     };
 
     document.querySelectorAll('.colored-text').forEach(el => {
