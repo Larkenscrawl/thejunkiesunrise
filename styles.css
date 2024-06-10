@@ -38,10 +38,12 @@ body {
     white-space: pre-wrap;
     text-indent: 2em;
     margin: 0;
+    line-height: 1.5;
 }
 
 .colored-text br {
     display: block;
+    content: "";
     margin-left: 2em;
     text-indent: -2em;
     line-height: 1.5;
