@@ -65,3 +65,19 @@ body {
 
 @keyframes chromatic-aberration {
     0% {
+        color: #ff0000;
+        text-shadow: 1px 0px 2px #00ff00, -1px 0px 2px #0000ff;
+    }
+    33% {
+        color: #00ff00;
+        text-shadow: 1px 0px 2px #0000ff, -1px 0px 2px #ff0000;
+    }
+    66% {
+        color: #0000ff;
+        text-shadow: 1px 0px 2px #ff0000, -1px 0px 2px #00ff00;
+    }
+    100% {
+        color: #ff0000;
+        text-shadow: 1px 0px 2px #00ff00, -1px 0px 2px #0000ff;
+    }
+}
