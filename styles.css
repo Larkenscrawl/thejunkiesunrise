@@ -11,6 +11,9 @@ body {
     height: 100vh;
     overflow: auto; /* Added to allow scrolling */
 }
+.indent {
+    text-indent: 2em;
+}
 .document {
     width: 8.5in; /* Letter size width */
     min-height: 11in; /* Letter size height */
@@ -55,7 +58,4 @@ body {
         color: #ff0000;
         text-shadow: 1px 0px 2px #00ff00, -1px 0px 2px #0000ff;
     }
-.indent {
-    text-indent: 2em;
-}
 }
